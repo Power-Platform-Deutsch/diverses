@@ -51,7 +51,6 @@ Based on the options listed in the screenshot provided for creating new componen
 
 For the items listed under "More" in the Power Platform solution, here's a markdown table with their descriptions and practical use cases:
 
-```markdown
 | ITEM                   | SHORT DESCRIPTION                                        | PRACTICAL USE CASE                                                                                          |
 |------------------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | **Choice**             | Set of options for a field in a table                    | Define a 'Status' field with choices like 'New', 'In Progress', and 'Completed' for a project management app. |
@@ -66,7 +65,6 @@ For the items listed under "More" in the Power Platform solution, here's a markd
 |   ├─ **Email template**| Preformatted email for standard communications | Use a standard template for customer service emails to ensure consistent messaging and branding.        |
 |   └─ **Mail merge template** | Template for personalized mass mailing   | Generate personalized letters or emails in bulk for a marketing campaign using customer data.          |
 | **Web resource**       | Files used in a web context within the app               | Add images, HTML files, and JavaScript libraries to be used in the app's web resources for UI customization. |
-```
 
 
 ## unter NEU-MEHR-Sonstiges
