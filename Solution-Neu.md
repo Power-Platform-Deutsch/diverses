@@ -1,5 +1,28 @@
 # Was man so alles in einer Solution so anlegen kann
 
+## unter APP
+
+| ITEM           | SHORT DESCRIPTION                                        | PRACTICAL USE CASE                                                                                             |
+|----------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Canvas app** | A flexible, design-first app                             | Create a custom front-end interface for a field service app that allows technicians to update work orders on their mobile devices. |
+| **Model-driven app** | An app based on the data model of Dataverse       | Develop a complex CRM system that utilizes the relationships and data structure defined in Dataverse.          |
+| **Page**       | Individual pages for model-driven apps                   | Design a dedicated customer details page within a model-driven app that provides a comprehensive view of customer interactions. |
+
+## unter Automation
+
+Based on the options listed in the screenshot provided for creating new components within a Power Platform solution, here is the markdown table with short descriptions and practical use cases:
+
+| ITEM              | SHORT DESCRIPTION                                          | PRACTICAL USE CASE                                                                                        |
+|-------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Cloud flow**    | Automated workflows hosted in the cloud                    | Automate document approval processes so that submissions are reviewed and approved by the necessary parties in sequence. |
+|  ├─**Automated**     | A cloud flow that triggers automatically based on events    | Create a flow that starts whenever a new item is added to a SharePoint list, automatically processing the item. |
+|  ├─**Instant**       | A cloud flow triggered by manual user action               | Set up an instant flow to quickly onboard new team members in Microsoft Teams with a click of a button.   |
+|  └─**Scheduled**     | A cloud flow that runs at predefined times                 | Configure a scheduled flow to generate weekly reports every Monday at 8 AM and email them to stakeholders. |
+| **Custom connector** | Connector to integrate with external APIs and services  | Create a connector to integrate a third-party API for SMS notifications into Power Automate workflows.   |
+| **Dataflow**      | Data preparation and transformation pipeline               | Set up a dataflow to import, clean, and transform sales data from various sources for Power BI reporting. |
+| **Desktop flow**  | Automate tasks on a local desktop environment              | Develop a desktop flow to automate data entry from scanned forms into a database system.                 |
+| **Process**       | Definition of a sequence of steps to perform certain tasks | Create a process to standardize and enforce the steps in a sales discount approval workflow.              |
+
 
 
 
