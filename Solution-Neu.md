@@ -1,5 +1,7 @@
 # Was man so alles in einer Solution so anlegen kann
 
+WARNUNG: Inhalte wurden mit ChatGpt erstellt und müssen noch überarbeitet/geprüft werden, ob es reine Phantasie ist oder wirkliches Wissen :)
+
 ## unter APP
 
 | ITEM           | SHORT DESCRIPTION                                        | PRACTICAL USE CASE                                                                                             |
@@ -21,10 +23,28 @@ Based on the options listed in the screenshot provided for creating new componen
 | **Custom connector** | Connector to integrate with external APIs and services  | Create a connector to integrate a third-party API for SMS notifications into Power Automate workflows.   |
 | **Dataflow**      | Data preparation and transformation pipeline               | Set up a dataflow to import, clean, and transform sales data from various sources for Power BI reporting. |
 | **Desktop flow**  | Automate tasks on a local desktop environment              | Develop a desktop flow to automate data entry from scanned forms into a database system.                 |
-| **Process**       | Definition of a sequence of steps to perform certain tasks | Create a process to standardize and enforce the steps in a sales discount approval workflow.              |
-
-
-
+| **Process**             | Framework for defining automated business processes | Define a multi-step approval process for expense reporting, ensuring compliance with company policies.      |
+|   ├─ **Action**         | Custom process action for reuse across workflows    | Create a reusable action to check inventory levels and reorder stock when it falls below a certain threshold.|
+|   ├─ **Business process flow** | Guide users through a business process          | Design a business process flow to standardize the stages every sales opportunity must go through from qualification to closure. |
+|   └─ **Workflow**       | Sequence of automated steps within a process        | Automate a sequence of tasks for data entry verification, followed by record updating and notification sending. |
+| **Card**                      | A modular unit of information in Teams or Power Automate              | Display summary information, like total sales, that can be quickly glanced in a Teams chat.                   |
+| **Chatbot**                   | An interactive AI chat interface                          | Implement a customer service chatbot to help users navigate support questions and submit tickets.            |
+| **Dashboard**                 | A collection of reports, cards, and other items           | Create a centralized overview of key performance indicators to be reviewed by the management team.          |
+|   ├─ **2-Column overview**    | Dashboard layout with two columns                         | Organize a dashboard to display sales and marketing data side by side for easy comparison.                   |
+|   ├─ **3-Column overview**    | Dashboard layout with three columns                       | Segment a dashboard into three sections for financial, operational, and customer service metrics.            |
+|   ├─ **3-Column overview (varied width)** | Dashboard with columns of varied width | Customize a dashboard to feature a main report, with smaller widgets on the side for alerts and updates.     |
+|   ├─ **4-Column overview**    | Dashboard layout with four columns                        | Design a dashboard to show detailed metrics across different business units, each in its own column.         |
+|   └─ **Power BI embedded**    | Embed Power BI reports directly into the dashboard        | Integrate interactive Power BI reports into the dashboard for in-depth data analysis and visualization.      |
+| **Report**                    | A detailed analysis or summary of data                    | Develop comprehensive sales reports that can be generated weekly for performance tracking.                   |
+| **Security**                  | Settings and configurations for securing the solution     | Configure user access controls and permissions to safeguard sensitive data within the app.                    |
+| **Table**                     | Structured data presented in rows and columns             | Create a table to organize and display customer contacts in a systematic, searchable format.                 |
+| **Security**               | Configuration of security measures within the solution| Set up security protocols to protect sensitive data and ensure compliance with data protection regulations.  |
+|   ├─ **Attribute masking rule** | Rule to mask attributes to protect sensitive data  | Mask personal identifiers in a customer service app to ensure that customer service reps see only the information necessary to assist the customer. |
+|   ├─ **Column security profile**| Security profile for column-level access          | Restrict access to salary information in a HR app, allowing only certain roles to view or edit this data.    |
+|   └─ **Secured masking rule**   | Rule to secure and mask specific data              | Apply rules to a financial app to mask account numbers, showing only the last four digits to unauthorized users. |
+|   └─ **Security role**          | Role defining permissions for users                 | Create a 'Manager' security role that grants permissions to approve budget requests and access sensitive reports. |
+| **Table**                 | Structure for organizing and storing data            | Create a custom table to track inventory levels, including columns for item names, quantities, and reorder thresholds. |
+| **Table from external data** | Structure for storing external data within Power Apps | Integrate external customer data from a third-party CRM system into Power Apps for unified data management. |
 
 
 ## unter NEU-Sonstiges
