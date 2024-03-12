@@ -1,3 +1,12 @@
+# Was man so alles in einer Solution so anlegen kann
+
+
+
+
+
+## unter NEU-Sonstiges
+
+
 | ITEM                              | SHORT DESCRIPTION                                      | PRACTICAL USE CASE                                                                                     |
 |-----------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | **AIPlugin**                      | Component for AI model integration                     | Integrate a custom machine learning model to predict customer churn based on usage data in a CRM app. |
