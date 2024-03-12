@@ -47,7 +47,29 @@ Based on the options listed in the screenshot provided for creating new componen
 | **Table from external data** | Structure for storing external data within Power Apps | Integrate external customer data from a third-party CRM system into Power Apps for unified data management. |
 
 
-## unter NEU-Sonstiges
+## unter MEHR
+
+For the items listed under "More" in the Power Platform solution, here's a markdown table with their descriptions and practical use cases:
+
+```markdown
+| ITEM                   | SHORT DESCRIPTION                                        | PRACTICAL USE CASE                                                                                          |
+|------------------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| **Choice**             | Set of options for a field in a table                    | Define a 'Status' field with choices like 'New', 'In Progress', and 'Completed' for a project management app. |
+| **Component Library**  | A repository of reusable components                      | Store and manage commonly used custom controls and components for use across multiple apps within the organization. |
+| **Connection Reference** | Reference to a connector used in the app                | Use connection references to manage and reuse connections to external services like Office 365 or Twitter. |
+| **Connection Role**    | Defines a relationship role within a connection          | Set up roles like 'Approver' or 'Requestor' in a document approval process to clarify responsibilities.     |
+| **Environment variable**| A variable that stores information in the app environment| Store an API endpoint URL as an environment variable, making it easy to change without modifying app code.  |
+| **Setting**            | Configuration settings for the app                       | Manage app-wide settings such as feature toggles or display options centrally.                              |
+|   ├─ **Setting definition** | A specific configurable property or characteristic   | Define a 'Theme Color' setting to allow customization of the app’s appearance depending on the user's department. |
+|   └─ **Setting environment value** | Value of a setting within an environment      | Set the 'API Endpoint' environment value to switch between development, testing, and production servers without code changes. |
+| **Templates**          | Predefined templates for use within the app              | Use templates to standardize the creation of new records, ensuring uniformity and compliance.               |
+|   ├─ **Email template**| Preformatted email for standard communications | Use a standard template for customer service emails to ensure consistent messaging and branding.        |
+|   └─ **Mail merge template** | Template for personalized mass mailing   | Generate personalized letters or emails in bulk for a marketing campaign using customer data.          |
+| **Web resource**       | Files used in a web context within the app               | Add images, HTML files, and JavaScript libraries to be used in the app's web resources for UI customization. |
+```
+
+
+## unter NEU-MEHR-Sonstiges
 
 
 | ITEM                              | SHORT DESCRIPTION                                      | PRACTICAL USE CASE                                                                                     |
